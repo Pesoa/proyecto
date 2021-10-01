@@ -1,0 +1,72 @@
+<html>
+  <head>
+
+    <title>Mail de contacto</title>
+    <link rel="shortcut icon" type="image/x-icon" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUAg_jwNvNdls84d12DwrJB6Z1IF_jsFgtDai5TfBo0_5VG5KlY0x6TpCmFLDA6Lcb9n0&usqp=CAU">
+    <link rel="stylesheet" href="style.css"/>
+
+   
+  </head>
+  <body>
+
+    <nav>
+      <ul>
+        <li> 
+          <a class="Boton"href="Pag2.html">Galeria</a>
+        </li>
+        <li> 
+          <a class="Boton" href="index.html">Blog</a>
+        </li>
+        <li> 
+        <a class="Boton" href="pag3.html">Mail</a>
+        </li>
+     </ul>
+    </nav>
+
+    <div id="container">
+
+
+      <header>
+      <h1>Mail</h1>
+      </header> 
+
+    <section id="content">
+        <form action="correo.php" method="POST">
+            <label>Email de usuario</label>
+
+            <input type="email" placeholder="Contacto@ejemplo.com" name="mail" required>
+
+            <label>Nombre Completo</label>
+
+            <input type="text" placeholder="John Doe" name="nombre" required>
+
+            <label>Asunto</label>
+
+            <input type="text"  placeholder="Contacto" name="asunto" required>
+
+            <label>Mensaje</label>
+
+            <textarea placeholder="Mensaje" name ="msg" required></textarea>
+
+            <input type="submit" name="enviar">
+        </form>
+        
+     </section>
+
+
+      <aside>
+        <h2>Contactanos!</h2>
+        <a href="https://www.instagram.com/polux_412/" target="_blank">
+          <img src="https://federacion.udd.cl/files/2017/03/New-instagram-logo-Thumbnail-Grafik-Blog-1-1.jpg" class="logos" >
+        </a>
+        <a href="https://m.facebook.com/escuela713/" target="_blank">
+          <img src="https://anka.com.co/wp-content/uploads/2017/04/facebook-transparent-logo-png-0-300x300.png" class="logos" >
+        </a>
+      </aside>
+
+      
+      
+    </div>
+    <footer>Proyecto de ingles tecnico, Juan Andres Pesoa, 7mo ETP.</footer>
+  </body>
+</html>

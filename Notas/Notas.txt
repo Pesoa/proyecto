@@ -1,0 +1,11 @@
+Etiquetas:
+<p>=Parrafo
+<H>(1,2,3..):Titulares
+<b>:Negrita
+<i>:Italica
+<blockquote>:Cita
+<cite>:Autor de la cita
+<hr>:Linea de separacion
+<a>(<a href="wwww.com">):Link
+<a>(<a target="_blank" href="wwww.com">):Link en una nueva pestaña
+<img src="" alt="" title="" width="" height"">: agregar imagen
